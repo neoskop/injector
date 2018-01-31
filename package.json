@@ -57,7 +57,8 @@
     "exclude": [
       "**/*.spec.ts",
       "dist",
-      "bundle"
+      "bundle",
+      "src/fixtures.ts"
     ]
   },
   "dependencies": {
