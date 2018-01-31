@@ -1,6 +1,6 @@
 {
   "name": "@neoskop/injector",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A replacement for the core functionallity of the deprecated ReflectiveInjector from @angular/core",
   "main": "bundle/injector.bundle.js",
   "module": "dist/public_api.js",
@@ -57,7 +57,8 @@
     "exclude": [
       "**/*.spec.ts",
       "dist",
-      "bundle"
+      "bundle",
+      "src/fixtures.ts"
     ]
   },
   "dependencies": {
