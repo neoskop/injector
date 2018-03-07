@@ -1,6 +1,6 @@
 {
   "name": "@neoskop/injector",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A replacement for the core functionallity of the deprecated ReflectiveInjector from @angular/core",
   "main": "bundle/injector.bundle.js",
   "module": "dist/public_api.js",
@@ -64,7 +64,7 @@
     ]
   },
   "peerDependencies": {
-    "@angular/core": "5.2.2",
-    "reflect-metadata": "0.1.12"
+    "@angular/core": "^5.2.2",
+    "reflect-metadata": "^0.1.12"
   }
 }
