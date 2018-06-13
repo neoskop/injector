@@ -5,14 +5,17 @@ import commonjs from 'rollup-plugin-commonjs';
 export default {
     input: 'dist/public_api.js',
     external: [ '@angular/core' ],
-    globals: {
-        '@angular/core': 'ng.core'
-    },
     output: {
+        globals: {
+            '@angular/core': 'ng.core'
+        },
         format: 'umd',
         name: 'neoskop.injector',
         file: 'bundle/injector.bundle.js',
-        sourcemap: true
+        sourcemap: true,
+        amd: {
+            id: '@neoskop/injector'
+        }
     },
     plugins: [
         resolve(),
@@ -20,7 +23,5 @@ export default {
         sourcemaps()
     ],
     treeshake: true,
-    amd: {
-        id: '@neoskop/injector'
-    }
+
 }
