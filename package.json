@@ -65,7 +65,7 @@
     ]
   },
   "peerDependencies": {
-    "@angular/core": "^5.2.2 || ^6.0.0",
-    "reflect-metadata": "^0.1.12"
+    "@angular/core": "*",
+    "reflect-metadata": "*"
   }
 }
